@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{fe5580da-b319-4f0e-8372-d3d65894467f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{81d3fc5a-636e-4478-b898-91a7468ac4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{36d0d9db-31fd-4494-a37c-9748e3ae841e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="View\Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="cdtheque.qrc">
+      <Filter>View\Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="cdtheque.ui">
+      <Filter>View\Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameListeAlbums.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameDetailAlbum.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameCamembertStat.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Album.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CatalogueAlbum.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ControleurImportCatalogue.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ControleurSupprAlbum.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="cdtheque.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="ControleurDetailAlbum.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Album.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CatalogueAlbum.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ControleurSupprAlbum.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ControleurDetailAlbum.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="observers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="cdtheque.h">
+      <Filter>View</Filter>
+    </QtMoc>
+    <QtMoc Include="FrameListeAlbums.h">
+      <Filter>View</Filter>
+    </QtMoc>
+    <QtMoc Include="FrameCamembertStat.h">
+      <Filter>View</Filter>
+    </QtMoc>
+    <QtMoc Include="FrameDetailAlbum.h">
+      <Filter>View</Filter>
+    </QtMoc>
+    <QtMoc Include="ControleurImportCatalogue.h">
+      <Filter>Controller</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
